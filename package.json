@@ -22,7 +22,4 @@
     "url": "https://github.com/vonrussel/testNode/issues"
   },
   "homepage": "https://github.com/vonrussel/testNode",
-  engines: {
-      "node": "0.10.24"
-  }
 }
