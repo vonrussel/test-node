@@ -1,0 +1,28 @@
+{
+  "name": "nodejsApps",
+  "version": "0.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vonrussel/testNode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vonrussel/testNode/issues"
+  },
+  "homepage": "https://github.com/vonrussel/testNode",
+  engines: {
+      "node": "0.10.24"
+  }
+}
