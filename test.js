@@ -12,7 +12,7 @@
         return response.end();
     }).listen(process.env.PORT || 5000);
 
-    var io = require('socket.io').listen(process.env.PORT || 5000);
+    var io = require('socket.io').listen(8888);
 
     io.sockets.on('connection', function (socket) {
         socket.emit('news', { hello: 'world' });
