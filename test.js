@@ -16,6 +16,7 @@
 
     io.sockets.on('connection', function (socket) {
         socket.emit('news', { hello: 'world' });
+        console.log("connected");
         socket.on('my other event', function (data) {
             console.log(data);
         });
