@@ -1,10 +1,11 @@
 {
-  "name": "nodejsApps",
-  "version": "0.0.0",
-  "description": "",
+  "name": "simplemessage",
+  "version": "0.0.1",
+  "description": "me",
   "main": "test.js",
   "dependencies": {
-    "coffee-script": "~1.6.3"
+    "coffee-script": "~1.6.3",
+    "socket.io": "~0.9.16"
   },
   "devDependencies": {
     "coffee-script": "~1.6.3"
@@ -16,10 +17,13 @@
     "type": "git",
     "url": "git://github.com/vonrussel/testNode.git"
   },
-  "author": "",
+  "author": "vonrussel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vonrussel/testNode/issues"
   },
-  "homepage": "https://github.com/vonrussel/testNode"
+  "homepage": "https://github.com/vonrussel/testNode",
+  "keywords": [
+    "me"
+  ]
 }
