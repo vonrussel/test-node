@@ -21,7 +21,6 @@
         }, 1000);
 
         console.log('websocket connection open');
-
         ws.on('close', function() {
             console.log('websocket connection close');
             clearInterval(id);
