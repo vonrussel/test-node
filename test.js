@@ -4,18 +4,19 @@
         WebSocketServer = require("ws").Server,
         url = require("url"),
         _ = require("underscore"),
+        ip = process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1",
+        port = process.env.OPENSHIFT_NODEJS_PORT || 8080,
         server;
 
     http = require("http");
 
     server = http.createServer(function(request, response) {
-        console.log(url.parse(request.url, true));
         response.writeHead(200, {
             "Content-Type": "text/plain"
         });
         response.write("Hello World");
         return response.end();
-    }).listen(process.env.OPENSHIFT_NODEJS_PORT || 8080, process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1");
+    }).listen(port, ip);
 
     var wss = new WebSocketServer({server: server});
     console.log('websocket server created');
@@ -30,5 +31,7 @@
             clearInterval(id);
         });
     });
+
+    console.log("Server is running at " + ip + ":" + port);
 
 }).call(this);
