@@ -28,5 +28,8 @@
   "homepage": "https://github.com/vonrussel/testNode",
   "keywords": [
     "me"
-  ]
+  ],
+  "scripts": {
+      "start": "node test.js"
+  }
 }
