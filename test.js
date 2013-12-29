@@ -15,7 +15,7 @@
         });
         response.write("Hello World");
         return response.end();
-    }).listen(process.env.OPENSHIFT_NODEJS_PORT || 8080);
+    }).listen(8080);
 
     var wss = new WebSocketServer({server: server});
     console.log('websocket server created');
