@@ -14,6 +14,7 @@
     "coffee-script": "~1.6.3"
   },
   "scripts": {
+    "start": "node test.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,8 +29,5 @@
   "homepage": "https://github.com/vonrussel/testNode",
   "keywords": [
     "me"
-  ],
-  "scripts": {
-      "start": "node test.js"
-  }
+  ]
 }
