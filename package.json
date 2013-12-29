@@ -6,7 +6,9 @@
   "dependencies": {
     "coffee-script": "~1.6.3",
     "socket.io": "~0.9.16",
-    "ws": "~0.4.31"
+    "ws": "~0.4.31",
+    "underscore": "~1.5.2",
+    "url": "~0.7.9"
   },
   "devDependencies": {
     "coffee-script": "~1.6.3"
